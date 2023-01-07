@@ -43,7 +43,7 @@
     font-size: 17px;
 }
 
-/* end of hero section */
+/* end of section 1 */
 
 .new-way {
     display: flex;
@@ -55,15 +55,17 @@
 .new-way-text {
     text-align: left;
     margin-top: 120px;
-
-
 }
 
-.right-mark {
-    margin-left: 13px;
-    list-style-type: square;
+.right-mark li{    
     margin-top: 20px;
-    line-height: 35px;
+    list-style: none;
+    line-height: 10px;    
+}
+.right-mark li:before{
+    content: "\2714";
+    color: green;
+    margin-right: 10px;
 }
 
 .new-way-text h1 {
@@ -127,7 +129,7 @@ p {
     width: 800px;
     height: 400px;
     background-repeat: no-repeat;
-    margin: 120px 230px;
+    margin: 120px 230px 50px 230px;
     background-size: contain;
 }
 
@@ -152,7 +154,7 @@ p {
 .endgame{
     background: #151414;
     size: cover;
-    height: 100vh;
+    height: 45vh;
     display: flex;   
     justify-content: space-between;
      padding-top: 160px; 
