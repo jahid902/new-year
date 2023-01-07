@@ -1,14 +1,206 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.hero-section { 
-   background-image: url('images/banner/banner1.png');
+.hero-section {
+    background-image: url('images/banner/banner3.png');
 
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: center;
+    padding-right: 150px;
+    display: flex inline-block;
+    text-align: right;
 }
 
+.header-text {
+    margin-left: 750px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    color: white;
+}
+
+.hero-section h1 {
+    color: white;
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.hero-section button {
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 0px;
+    color: #005FAC;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/* end of hero section */
+
+.new-way {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 100px 120px 50px;
+}
+
+.new-way-text {
+    text-align: left;
+    margin-top: 120px;
+
+
+}
+
+.right-mark {
+    margin-left: 13px;
+    list-style-type: square;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.new-way-text h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.my-text {
+    line-height: 25px;
+}
+
+/* end of section 2 */
+
+.my-plan-title {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+
+.quality {
+    display: flex;
+    margin: 0 200px;
+    gap: 100px;
+    align-items: center;
+
+}
+.exp p{
+    text-align: center;
+}
+
+.exp h3 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+.quality h3,
+p {
+    text-align: center;
+
+}
+
+.quality .img-two {
+    margin-left: 18px;
+    width: 80px;
+}
+
+.exp .img-one {
+    padding-left: 22px;
+}
+
+/* end of section 3 */
+
+.contact {
+    background-image: url('images/gradient1.png'), url('images/watch.png');
+    width: 800px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin: 120px 230px;
+    background-size: contain;
+}
+
+.mindset {
+    padding-top: 35px;
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.call{
+    color: #005FAC;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+    border-color: rgb(251, 251, 251);    
+}
+/* end of section 4 */
+
+.endgame{
+    background: #151414;
+    size: cover;
+    height: 100vh;
+    display: flex;   
+    justify-content: space-between;
+     padding-top: 160px; 
+    padding-left: 130px; 
+    padding-right: 130px; 
+}
+.future {
+    color: white;
+    width: 400px;       
+}
+.future h1, p{
+    text-align: left;
+}
+
+.future-text{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.phone{
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.subscribe{
+    color: white;
+    display: block;
+    width: 300px;
+    
+}
+.subscribe h3{
+    margin-bottom: 15px;
+}
+.i-email{
+    margin-bottom: 25px;
+    background-color: #151414;
+    border-radius: 5px;
+    color: #F3F3F3;
+    border: 1px solid white;
+    padding: 10px 20px;
+    
+}
+.sub-btn{
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #005FAC;
+    color: #F3F3F3;
+}
+.future img{
+    width: 30px;    
+}
+/* end of project */
